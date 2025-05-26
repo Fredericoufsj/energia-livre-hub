@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -148,12 +147,11 @@ const Marketplace = () => {
                       <SelectValue placeholder="Todas as regiões" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="">Todas as regiões</SelectItem>
-                      <SelectItem value="Sudeste">Sudeste</SelectItem>
-                      <SelectItem value="Sul">Sul</SelectItem>
-                      <SelectItem value="Nordeste">Nordeste</SelectItem>
-                      <SelectItem value="Norte">Norte</SelectItem>
-                      <SelectItem value="Centro-Oeste">Centro-Oeste</SelectItem>
+                      <SelectItem value="sudeste">Sudeste</SelectItem>
+                      <SelectItem value="sul">Sul</SelectItem>
+                      <SelectItem value="nordeste">Nordeste</SelectItem>
+                      <SelectItem value="norte">Norte</SelectItem>
+                      <SelectItem value="centro-oeste">Centro-Oeste</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
@@ -164,12 +162,11 @@ const Marketplace = () => {
                       <SelectValue placeholder="Todos os tipos" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="">Todos os tipos</SelectItem>
-                      <SelectItem value="Energia Convencional">Convencional</SelectItem>
-                      <SelectItem value="Energia Renovável">Renovável</SelectItem>
-                      <SelectItem value="Energia Solar">Solar</SelectItem>
-                      <SelectItem value="Energia Eólica">Eólica</SelectItem>
-                      <SelectItem value="Energia Hidrelétrica">Hidrelétrica</SelectItem>
+                      <SelectItem value="convencional">Convencional</SelectItem>
+                      <SelectItem value="renovavel">Renovável</SelectItem>
+                      <SelectItem value="solar">Solar</SelectItem>
+                      <SelectItem value="eolica">Eólica</SelectItem>
+                      <SelectItem value="hidrica">Hidrelétrica</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
